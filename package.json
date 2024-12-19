@@ -1,0 +1,24 @@
+{
+  "name": "profanity-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy --minify index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@upstash/vector": "^1.1.7",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.13",
+    "langchain": "^0.1.34"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "wrangler": "^3.95.0"
+  }
+}
